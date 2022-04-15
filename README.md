@@ -1,16 +1,21 @@
-# blb_entreprise
+# BLB Application
 
-A new Flutter project.
+Framework utilisé : Flutter
+Language de programmation utilisé: DART
 
-## Getting Started
+## Objectif du projet :
 
-This project is a starting point for a Flutter application.
+Ce projet vise à réaliser une application mobile facilitant les tâches de travail au sein de l'entreprise BLB.
 
-A few resources to get you started if this is your first Flutter project:
+### Contenu du projet :
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+* Un système d'authenfication lié au service d'hebergement firebase
+* Une interface client
+* Une interface entreprise
+* Une interface admin
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+L'interface client contient un identifiant de QR code ainsi que des informations sur la société BLB telles que ses contacts, ses réseaux sociaux etc..
+
+L'interface entreprise contient un formulaire de création de QR codes personnalisés ainsi qu'un identifiant de QR code intégré, elle contient également un formulaire de création de devis PDF, un formulaire d'ajout de client, un formulaire de modification des informations client et un système d'indexation. 
+
+L'interface d'administration contient un tableau de bord gérant les informations entrantes et sortantes des clients, la possibilité de supprimer les données clients et de gérer les rôles des utilisateurs.
